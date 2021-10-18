@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.main {
+	font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+	align-items: flex-start;
+	align-content: space-around;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 22rem;
+    height: 25rem;
+    border: 0.0625rem dashed #8055FF;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+	padding: 2rem;
+}
+
+.container {
+	padding-left: 2rem;
+}
+
+.searchbar-container {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 22rem;
+    height: 12rem;
+    border: 0.0625rem dashed #8055FF;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+	padding: 2rem;
+}
+
+.checkbox-radio-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-self: center;
+	align-content: space-around;
+	justify-content: space-between;
+	width: 16rem;
+    height: 12rem;
+}
+
+.checkbox-container {
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+    padding: 0.5rem;
+	width: 6.5rem;
+	height: 4rem;
+	border: 1px dashed #8055FF;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.radio-container {
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+    padding: 0.5rem;
+	width: 6.5rem;
+	height: 4rem;
+	border: 1px dashed #8055FF;
+	box-sizing: border-box;
+	border-radius: 5px;
+}

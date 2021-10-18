@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.control-label {
+	position: static;
+	width: 16rem;
+	height: 1rem;
+	font-family: Ubuntu;
+	font-size: 0.813rem;
+	line-height: 1rem;
+	color: #000000;
+}
+
+.input-group {
+	display: flex;
+    flex-direction: row;
+}
+
+.form-control-empty,
+.form-control-incorrect,
+.form-control-disabled {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+	position: static;
+	width: 16rem;
+	height: 2rem;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin: 0.5rem 0rem;
+
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.813rem;
+	line-height: 1rem;
+	color: #000000;
+}
+
+.form-control-empty {
+	background: #FFFFFF;
+	border: 0.063rem solid #459DF5;
+}
+
+.form-control-incorrect {
+	background: #FFFFFF;
+	border: 0.063rem solid #F53152;
+}
+
+.form-control-disabled {
+	background: #BAD8F5;
+	border: 0.063rem solid #459DF5;
+}
+
+.input-group__icon-disabled,
+.input-group__icon-incorrect {
+	width: 1rem;
+	height: 1rem;
+	align-self: center;
+	margin-left: -1.5rem;
+}
