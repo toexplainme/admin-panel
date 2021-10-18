@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+	background: #FFFFFF;
+	box-shadow: 0rem 2rem 8rem rgba(0, 0, 0, 0.5), 0rem 1rem 2rem rgba(0, 0, 0, 0.34), 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2rem 3rem 0rem 3rem;
+	height: 100vh;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 100%;
+	height: 2rem;
+	background: #A8A8FF;
+	margin: 2rem 0rem;
+
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 1.625rem;
+	line-height: 2rem;
+	letter-spacing: -0.013rem;
+	color: #8055FF;	
+}
+
+.panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0.5rem;
+	height: 3rem;
+	border: 0.125rem solid #A8A8FF;
+	box-sizing: border-box;
+	align-self: stretch;
+	margin-bottom: 2rem;
+}
+
+.panel__group {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 18.5rem;
+	height: 100%;
+}
+
+.panel__group-search {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 16rem;
+	height: 100%;
+	margin-right: 0.5rem;
+	background: #8055FF;
+}
+
+.panel__group-filters {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 2rem;
+	height: 100%;
+	background: #8055FF;
+}
+
+.panel__loading {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 2rem;
+	height: 100%;
+	background: #8055FF;
+}
+
+.table {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0.125rem solid #8055FF;
+    box-sizing: border-box;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.table__header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0.5rem;
+	height: 3rem;
+	background: #8055FF;
+	align-self: stretch;
+}
+
+.table__body {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0.5rem;
+	background: #A8A8FF;
+	align-self: stretch;
+	flex-grow: 1;
+}
+
+.table__footer {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0.5rem;
+	height: 3rem;
+	align-self: stretch;
+	background: #8055FF;
+	align-self: stretch;
+}
