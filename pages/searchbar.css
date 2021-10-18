@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.control-label {
+	position: static;
+	width: 16rem;
+	height: 1rem;
+	font-family: Ubuntu;
+	font-size: 0.813rem;
+	line-height: 1rem;
+	color: #000000;
+}
+
+.searchbar-group {
+	display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+	position: static;
+	width: 16rem;
+	height: 2rem;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin: 0.5rem 0rem;
+
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.813rem;
+	line-height: 1rem;
+	color: #000000;
+}
+
+.searchbar-group .form-control {
+	background: #FFFFFF;
+	border: 0.063rem solid #459DF5;
+	padding-left: 2rem;
+    margin-left: -1.5rem;
+}
+
+.searchbar-group__icon-close {
+	width: 1rem;
+	height: 1rem;
+	align-self: center;
+	margin-left: -1.5rem;
+}
+
+.searchbar-group__icon-search {
+	width: 1rem;
+	height: 1rem;
+	align-self: center;
+	margin-left: -1.5rem;
+	z-index: 1;
+}
